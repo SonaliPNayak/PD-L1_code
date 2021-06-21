@@ -1,0 +1,17 @@
+# Running RACIPE simulations on the network shown in Fig 1A
+./RACIPE EMT_PDL1_circuit_Fig_1A.topo -num_paras 30000
+
+# Running RACIPE simulations on the network shown in Fig 1A over-expressing miR-200
+./RACIPE EMT_PDL1_circuit_Fig_1A.topo -num_paras 30000 -OEID 2 -OEFD 20
+
+# Running RACIPE simulations on the network shown in Fig 1A down-expressing miR-200
+./RACIPE EMT_PDL1_circuit_Fig_1A.topo -num_paras 30000 -DEID 2 -DEFD 20
+
+# Running RACIPE simulations on the network shown in Fig 1A over-expressing SLUG
+./RACIPE EMT_PDL1_circuit_Fig_1A.topo -num_paras 30000 -OEID 5 -OEFD 20
+
+# Running RACIPE simulations on the network shown in Fig 1A down-expressing SLUG
+./RACIPE EMT_PDL1_circuit_Fig_1A.topo -num_paras 30000 -DEID 5 -DEFD 20
+
+# Running RACIPE simulations on the network shown in Fig S4C
+./RACIPE EMT_PDL1_stemness_circuit_Fig_S4C.topo -num_paras 30000
